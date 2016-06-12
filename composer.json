@@ -1,0 +1,16 @@
+{
+  "name": "tonyhhyip/laravel-sse",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.1",
+    "tonyhhyip/sse": "~2.1"
+  }
+  "autoload": {
+    "psr-4": {
+      "Sse\\Laravel\\": "src/"
+    }
+  }
+}

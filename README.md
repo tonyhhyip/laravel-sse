@@ -22,11 +22,11 @@ If you want, you can also add the alias SSE:
 ```php
 'providers' => [
     ...
-    \Sse\Laravel\SseServiceProvider::class
+    Sse\Laravel\SseServiceProvider::class
 ],
 'alias' => [
     ...
-    'SSE' => \Sse\Laravel\Facade:class
+    'SSE' => Sse\Laravel\Facade\SSE::class
 ]
 ```
 
